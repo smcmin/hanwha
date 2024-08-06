@@ -593,3 +593,38 @@ footer .inner .list li a:focus {
   color: #ff8342;
   text-decoration: underline;
 }
+/* 반응형 1599 */
+@media screen and (max-width: 1599px) {
+  /* header  */
+  header .inner-header {
+    width: 95%;
+    min-width: 1024px;
+  }
+  .inner-header .gnb {
+    margin-left: 50px;
+  }
+  .inner-header .gnb li {
+    margin-right: 40px;
+  }
+  .inner-header .gnb li:last-child {
+    margin-right: 0;
+  }
+  /* section */
+  section.about ul,
+  section.innovation .img-box,
+  section.me ul.list,
+  section.sns ul {
+    width: 95%;
+  }
+  /* footer */
+  footer .inner { 
+    width: 95%;
+    min-width: 90%;
+  }
+  footer .inner .list li {
+    margin-left: 20px;
+  }
+  footer .inner .list li a::after {
+    right: -13px;
+  }
+}
